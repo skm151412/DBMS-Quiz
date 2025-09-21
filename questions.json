@@ -1,0 +1,978 @@
+{
+  "subjects": [
+    {
+      "id": 1,
+      "name": "DBMS",
+      "color": "#000000",
+      "description": "Database Management Systems"
+    },
+    {
+      "id": 2,
+      "name": "FEDF",
+      "color": "#FF6B6B",
+      "description": "Front-End Development Frameworks"
+    },
+    {
+      "id": 3,
+      "name": "OOP",
+      "color": "#4ECDC4",
+      "description": "Object-Oriented Programming"
+    },
+    {
+      "id": 4,
+      "name": "OS",
+      "color": "#45B7D1",
+      "description": "Operating Systems"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "2nd Year Computer Science Fundamentals Quiz",
+      "description": "Comprehensive quiz covering DBMS, FEDF, OOP, and OS fundamentals - 100 Questions",
+      "creator_id": 1,
+      "time_limit_minutes": 90,
+      "passing_score": 60,
+      "password": "123",
+      "author_password": "boat4567",
+      "is_active": true
+    }
+  ],
+  "quiz_subjects": [
+    {
+      "id": 1,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_count": 25
+    },
+    {
+      "id": 2,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_count": 25
+    },
+    {
+      "id": 3,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_count": 25
+    },
+    {
+      "id": 4,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_count": 25
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "What is the primary function of a Database Management System (DBMS)?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 1
+    },
+    {
+      "id": 2,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "Which of the following is a key feature of a relational database?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 2
+    },
+    {
+      "id": 3,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "What does SQL stand for in the context of DBMS?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 3
+    },
+    {
+      "id": 4,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "Which of the following is used to uniquely identify a record in a table?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 4
+    },
+    {
+      "id": 5,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "What is the purpose of a foreign key in a relational database?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 5
+    },
+    {
+      "id": 6,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "Which normal form ensures no transitive dependencies exist?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 6
+    },
+    {
+      "id": 7,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "What is the purpose of the SELECT statement in SQL?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 7
+    },
+    {
+      "id": 8,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "Which of the following is a type of database model?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 8
+    },
+    {
+      "id": 9,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "What does ACID stand for in the context of database transactions?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 9
+    },
+    {
+      "id": 10,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "Which SQL command is used to modify existing data in a table?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 10
+    },
+    {
+      "id": 11,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "What is a view in a DBMS?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 11
+    },
+    {
+      "id": 12,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "Which of the following ensures data integrity in a database?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 12
+    },
+    {
+      "id": 13,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "What is the purpose of the JOIN clause in SQL?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 13
+    },
+    {
+      "id": 14,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "Which type of join returns all rows from both tables, with NULLs in places where there is no match?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 14
+    },
+    {
+      "id": 15,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "What is the role of an index in a database?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 15
+    },
+    {
+      "id": 16,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "Which SQL clause is used to filter the results of a query?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 16
+    },
+    {
+      "id": 17,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "What is a trigger in a DBMS?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 17
+    },
+    {
+      "id": 18,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "Which of the following is a NoSQL database type?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 18
+    },
+    {
+      "id": 19,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "What does the COMMIT command do in SQL?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 19
+    },
+    {
+      "id": 20,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "What is the purpose of the GROUP BY clause in SQL?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 20
+    },
+    {
+      "id": 21,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "Which of the following is a benefit of database normalization?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 21
+    },
+    {
+      "id": 22,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "What is a schema in a DBMS?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 22
+    },
+    {
+      "id": 23,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "Which SQL command is used to remove a table from a database?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 23
+    },
+    {
+      "id": 24,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "What is the purpose of the HAVING clause in SQL?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 24
+    },
+    {
+      "id": 25,
+      "quiz_id": 1,
+      "subject_id": 1,
+      "question_text": "Which of the following is an example of a DBMS software?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 25
+    },
+    {
+      "id": 26,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "What is a primary benefit of using a front-end framework like React?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 26
+    },
+    {
+      "id": 27,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "Which front-end framework is known for its two-way data binding feature?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 27
+    },
+    {
+      "id": 28,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "What does the Virtual DOM in React primarily improve?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 28
+    },
+    {
+      "id": 29,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "Which of the following is a CSS framework commonly used for responsive design?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 29
+    },
+    {
+      "id": 30,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "What is the main purpose of a front-end framework?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 30
+    },
+    {
+      "id": 31,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "Which framework is known for compiling code at build time to optimize performance?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 31
+    },
+    {
+      "id": 32,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "What is JSX in the context of React?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 32
+    },
+    {
+      "id": 33,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "Which front-end framework is developed by Google?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 33
+    },
+    {
+      "id": 34,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "What is a key feature of Vue.js that makes it beginner-friendly?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 34
+    },
+    {
+      "id": 35,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "Which of the following frameworks is primarily a CSS framework?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 35
+    },
+    {
+      "id": 36,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "What does a front-end framework like Angular use to structure applications?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 36
+    },
+    {
+      "id": 37,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "Which framework is known for its lightweight and minimalistic approach?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 37
+    },
+    {
+      "id": 38,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "What is a common use case for the jQuery framework?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 38
+    },
+    {
+      "id": 39,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "Which front-end framework is ideal for building single-page applications (SPAs)?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 39
+    },
+    {
+      "id": 40,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "What is a key advantage of using a front-end framework like Vue.js?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 40
+    },
+    {
+      "id": 41,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "Which of the following is a feature of the Svelte framework?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 41
+    },
+    {
+      "id": 42,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "What is the primary focus of the Bootstrap framework?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 42
+    },
+    {
+      "id": 43,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "Which front-end framework is developed by Facebook?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 43
+    },
+    {
+      "id": 44,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "What does a front-end framework like Ember.js emphasize?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 44
+    },
+    {
+      "id": 45,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "Which of the following is a benefit of using Tailwind CSS?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 45
+    },
+    {
+      "id": 46,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "Which framework is known for its use of TypeScript?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 46
+    },
+    {
+      "id": 47,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "What is a common challenge when using the Angular framework?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 47
+    },
+    {
+      "id": 48,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "Which of the following frameworks is best suited for static site generation?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 48
+    },
+    {
+      "id": 49,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "What is a key feature of the Semantic UI framework?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 49
+    },
+    {
+      "id": 50,
+      "quiz_id": 1,
+      "subject_id": 2,
+      "question_text": "Which front-end framework is known for its focus on mobile-first development?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 50
+    },
+    {
+      "id": 51,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is the main purpose of Object-Oriented Programming (OOP)?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 51
+    },
+    {
+      "id": 52,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "Which of the following is a core principle of OOP?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 52
+    },
+    {
+      "id": 53,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is a class in OOP?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 53
+    },
+    {
+      "id": 54,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is an object in OOP?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 54
+    },
+    {
+      "id": 55,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "Which OOP principle allows a class to inherit properties from another class?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 55
+    },
+    {
+      "id": 56,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What does encapsulation in OOP refer to?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 56
+    },
+    {
+      "id": 57,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is polymorphism in OOP?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 57
+    },
+    {
+      "id": 58,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is abstraction in OOP?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 58
+    },
+    {
+      "id": 59,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "Which keyword is used to inherit a class in Java?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 59
+    },
+    {
+      "id": 60,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is a constructor in a class?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 60
+    },
+    {
+      "id": 61,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "Which access modifier makes a member accessible only within its own class?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 61
+    },
+    {
+      "id": 62,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is method overloading in OOP?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 62
+    },
+    {
+      "id": 63,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is method overriding in OOP?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 63
+    },
+    {
+      "id": 64,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is an abstract class in OOP?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 64
+    },
+    {
+      "id": 65,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is an interface in OOP?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 65
+    },
+    {
+      "id": 66,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "Which keyword is used to create an instance of a class?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 66
+    },
+    {
+      "id": 67,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What does the 'super' keyword do in Java?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 67
+    },
+    {
+      "id": 68,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is the purpose of the 'this' keyword in OOP?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 68
+    },
+    {
+      "id": 69,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is a static method in OOP?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 69
+    },
+    {
+      "id": 70,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "Which of the following is true about final classes in Java?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 70
+    },
+    {
+      "id": 71,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is the default access modifier in Java if none is specified?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 71
+    },
+    {
+      "id": 72,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is the purpose of a getter method in OOP?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 72
+    },
+    {
+      "id": 73,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is the purpose of a setter method in OOP?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 73
+    },
+    {
+      "id": 74,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "Which OOP concept allows different classes to be treated as instances of the same class?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 74
+    },
+    {
+      "id": 75,
+      "quiz_id": 1,
+      "subject_id": 3,
+      "question_text": "What is the benefit of using OOP over procedural programming?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 75
+    },
+    {
+      "id": 76,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is the primary function of an Operating System (OS)?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 76
+    },
+    {
+      "id": 77,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "Which of the following is an example of a multi-user operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 77
+    },
+    {
+      "id": 78,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is a process in the context of an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 78
+    },
+    {
+      "id": 79,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is the role of the kernel in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 79
+    },
+    {
+      "id": 80,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "Which scheduling algorithm selects the process with the shortest next CPU burst?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 80
+    },
+    {
+      "id": 81,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is a deadlock in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 81
+    },
+    {
+      "id": 82,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "Which of the following is a function of the operating system's memory management?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 82
+    },
+    {
+      "id": 83,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is virtual memory in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 83
+    },
+    {
+      "id": 84,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is the purpose of the file system in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 84
+    },
+    {
+      "id": 85,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "Which of the following is a real-time operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 85
+    },
+    {
+      "id": 86,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is a thread in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 86
+    },
+    {
+      "id": 87,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is the purpose of interrupt handling in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 87
+    },
+    {
+      "id": 88,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "Which of the following is a condition for deadlock to occur?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 88
+    },
+    {
+      "id": 89,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is the role of the scheduler in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 89
+    },
+    {
+      "id": 90,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is paging in memory management?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 90
+    },
+    {
+      "id": 91,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is a semaphore in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 91
+    },
+    {
+      "id": 92,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "Which of the following is a type of operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 92
+    },
+    {
+      "id": 93,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is the purpose of the swap space in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 93
+    },
+    {
+      "id": 94,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is a context switch in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 94
+    },
+    {
+      "id": 95,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "Which of the following is a function of device drivers in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 95
+    },
+    {
+      "id": 96,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is the purpose of the boot loader in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 96
+    },
+    {
+      "id": 97,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "Which of the following is a benefit of multiprocessing in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 97
+    },
+    {
+      "id": 98,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is the role of the system call in an operating system?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 98
+    },
+    {
+      "id": 99,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "Which of the following is a type of file system used in operating systems?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 99
+    },
+    {
+      "id": 100,
+      "quiz_id": 1,
+      "subject_id": 4,
+      "question_text": "What is the purpose of the operating system's security management?",
+      "question_type": "MULTIPLE_CHOICE",
+      "points": 1,
+      "order_num": 100
+    }
+  ],
+  "meta": {
+    "total_questions": 100,
+    "total_options": 400,
+    "subjects_covered": 4,
+    "questions_per_subject": 25,
+    "time_limit": "90 minutes",
+    "difficulty": "intermediate",
+    "target_audience": "2nd year computer science students"
+  }
+}
